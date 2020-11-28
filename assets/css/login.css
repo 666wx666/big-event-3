@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(/assets/images/login_bg.jpg) no-repeat center/cover;
+    overflow: hidden;
+}
+
+.loginAndRegist {
+    width: 428px;
+    height: 428px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    height: 60px;
+    background: url(/assets/images/login_title.png) no-repeat center;
+}
+
+.loginBox,
+.RegistBox {
+    width: 100%;
+    height: 100%;
+}
+
+.registBox {
+    display: none;
+}
+
+.layui-form {
+    padding: 20px;
+}
+
+.layui-input {
+    padding-left: 35px;
+}
+
+#gotoRigest,
+#gotoLogin {
+    float: right;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
